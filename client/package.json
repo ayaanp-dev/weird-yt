@@ -1,5 +1,6 @@
 {
   "name": "client",
+  "proxy": "https://weirdyt-api.herokuapp.com/daily",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
