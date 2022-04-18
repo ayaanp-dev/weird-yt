@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Anek+Odia&family=Prompt:wght@300&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+body {
+  background: #333333;
+}
+
+.sign {
+  margin: auto;
+  width: 60rem;
+  height: 5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.sign-element {
+  color: #7f8c8d;
+  text-decoration: none;
+  font-size: 1.8rem;
+  transition: 0.5s;
+  font-family: 'Anek Odia', sans-serif;
+  text-decoration: underline;
+}
+
+.sign-element:hover { color: #d8d8d8 }
+
+.daily-videos {
+  display: flex;
+  color: #7f8c8d;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 2rem;
+  gap: 1rem;
+}
+
+.daily-videos-h1 {
+  font-size: 2rem;
+  font-family: 'Prompt', sans-serif;
+}
+
+
+.about-h1 {
+  font-size: 1.5rem;
+}
